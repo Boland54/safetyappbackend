@@ -1,0 +1,41 @@
+{
+  "name": "safetyappserver",
+  "version": "1.0.0",
+  "description": "Server for final year project safetyapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Adam Boland",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.17.2",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-stage-2": "^7.8.3",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.8.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.26.3",
+    "concurrently": "^6.2.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "googleapis": "^95.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "react-geolocated": "^3.2.0"
+  }
+}
